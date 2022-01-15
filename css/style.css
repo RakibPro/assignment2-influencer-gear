@@ -227,6 +227,43 @@
 /* Product Section End */
 
 
+
+/* Offer Section Start */
+.offer-container{
+    border: 1px solid #000;
+    display: flex;
+    margin-top: 130px;
+}
+.offer{
+    border: 1px solid rgb(255, 0, 0);
+    width: 50%;
+}
+.offer img{
+    height: 350px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Offer Section End */
+
+
+
+
+
+
+
 /* Footer Start */
 
 footer{
