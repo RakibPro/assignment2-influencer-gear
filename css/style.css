@@ -217,6 +217,7 @@
     text-decoration: none;
     color: #ff4343;
     font-size: 17px;
+    font-weight: bold;
     padding: 10px 20px;
 }
 .right-arrow{
@@ -284,37 +285,3 @@ footer > div{
 }
 
 /* Keyframes End */
-
-
-
-
-
-
-
-/* Responsive Styles Here */
-
-/* Media Query For Tablet Start */
-
-@media only screen and (min-width: 688px) and (max-width: 992px) {
-
-    body{
-        background: crimson;
-    }
-    
-}
-
-/* Media Query For Tablet End */
-
-
-
-
-
-/* Media Query For Mobile Start */
-
-@media only screen and (max-width: 688px) {
-    body{
-        background: green;
-    }
-}
-
-/* Media Query For Mobile End */
