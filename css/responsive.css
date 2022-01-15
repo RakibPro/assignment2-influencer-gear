@@ -75,13 +75,30 @@
     .products{
         width: 290px;
     }
+    /* Offer Section */
+    .offer-container{
+        width: 760px;
+    }
+    .offer{
+        width: 760px;
+    }
+    .offer h1 span{
+        font-size: 40px;
+    
+    }
+    .offer h1{
+        font-size: 40px;
+    }
+    .input-field{
+        width: 330px;
+    }
+    .offer p{
+        width: 360px;
+    }
+
 }
 
 /* Media Query For Tablet End */
-
-
-
-
 
 
 
@@ -160,6 +177,32 @@
     .products{
         width: 290px;
     }
+    /* Offer Section */
+    .offer-container{
+        width: 350px;
+    }
+    .offer{
+        width: 350px;
+    }
+    .offer h1 span{
+        font-size: 40px;
+    
+    }
+    .offer h1{
+        font-size: 30px;
+    }
+    .input-field{
+        width: 260px;
+    }
+    .offer p{
+        width: 275px;
+    }
+    .discount{
+        margin-left: -70px;
+    }
+
+
+    /* Footer here */
     footer{
         width: 100%;
     }
