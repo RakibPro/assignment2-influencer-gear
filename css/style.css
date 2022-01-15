@@ -1,0 +1,111 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    
+}
+
+/* Header Start */
+
+.container{
+    margin: 35px 100px 0px 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: #3A3A3A;
+
+}
+.menu ul{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    padding-left: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding:10px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+/* Header End */
+
+/* Hero Section Start */
+
+.hero-main{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin-top: 50px;
+}
+.hero-left{
+    margin-left: 100px;
+}
+.hero-right img{
+    background-image: url(../images/Circle-design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+
+}
+.sliders{
+    width: 50%;
+}
+.sliders h1{
+    color: #3A3A3A;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.sliders p{
+    color: #3A3A3A;
+    font-weight: bold;
+    margin: 5px 100px 25px 0;
+}
+.btn{
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 25px;
+    background-color: #FF6263;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn i{
+    padding-left: 7px;
+}
+
+/* Hero Section End */
