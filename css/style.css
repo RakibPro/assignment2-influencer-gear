@@ -12,6 +12,7 @@
 
 .container{
     margin: 35px 100px 0px 100px;
+    max-width: 1440px;
 }
 
 .navbar{
@@ -110,3 +111,70 @@
 
 /* Hero Section End */
 
+/* Product Section Start */
+
+.product-container{
+    width: 100%;
+    margin-top: 150px;
+}
+.product-title{
+    text-align: center;
+    color:#3A3A3A;
+    margin-bottom: 50px;
+}
+.product-title h1{
+    font-size: 40px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
+.products{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 330px;
+    margin: auto;
+}
+.product-box{
+    width: 85%;
+    margin:0 auto;
+}
+.product-box img{
+    margin-top: 15px;
+    width: 100%;
+}
+.product-name{
+    padding-top: 10px;
+    font-size: 26px;
+    font-weight:600;
+    color: #18191F;
+}
+.price{
+    font-size: 24px;
+    padding-top: 10px;
+    color: #000000DE;
+}
+.rating{
+    display: flex;
+    padding-top: 10px;
+
+}
+.star{
+    color: orange;
+    padding-right: 10px;
+}
+.rating p{
+    font-weight: bold;
+    color: gray;
+    
+}
+.product-description{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+
+/* Product Section End */
