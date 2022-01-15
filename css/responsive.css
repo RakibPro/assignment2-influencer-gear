@@ -49,7 +49,6 @@
     .sliders h1:nth-child(2) span{
         margin: auto;
     }
-    
 
     .hero-right{
         margin-top: 50px;
@@ -61,7 +60,7 @@
     .sliders p{
         width: 350px;
         margin-top: 25px;
-        margin-left: 165px;
+        margin-left: 200px;
     }
 
     /* Product Section */
