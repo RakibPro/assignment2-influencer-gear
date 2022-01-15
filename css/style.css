@@ -176,5 +176,41 @@
     padding-bottom: 15px;
 }
 
-
 /* Product Section End */
+
+
+/* Footer Start */
+
+footer{
+    height: 250px;
+    background: #0A0826;
+    text-align: center;
+    color: white;
+}
+footer > div > h1{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+footer > div > p{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+footer > div{
+    padding-top: 50px;
+}
+.s-icon{
+    margin-top: 15px;
+}
+.s-icon a{
+    text-decoration: none;
+    color: white;
+}
+.s-icon a i{
+    background: #22203B;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    padding: 12px;
+}
+/* Footer End */
