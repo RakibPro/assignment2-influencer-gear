@@ -173,7 +173,10 @@
 }
 .product-description{
     padding-top: 5px;
-    padding-bottom: 15px;
+    padding-bottom: 16px;
+    font-size:14px;
+    font-weight: bold;
+    color:#787885;
 }
 
 /* Product Section End */
